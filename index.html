@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People Counter App</title>
+  </head>
+  <body>
+    <div class="border border-blue-600 rounded-lg h-96 w-96 m-auto mt-60 p-6">
+      <div class="flex flex-col items-center gap-8 mt-20">
+        <h1 class="text-3xl">People Entered:</h1>
+        <h2 class="text-2xl" id="count-el">0</h2>
+
+        <button
+          class="bg-blue-600 p-2 w-52 text-white rounded-md"
+          id="increment-btn"
+          onclick="increment()"
+        >
+          INCREMENT
+        </button>
+      </div>
+    </div>
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- javascript linked here -->
+    <script src="index.js"></script>
+  </body>
+</html>
